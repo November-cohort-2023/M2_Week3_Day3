@@ -1,8 +1,11 @@
 import React from 'react'
 
-function ID() {
+function ID(props) {
   return (
-    <div>ID</div>
+    <div>
+        <h2> Name:  {props.name}</h2>
+        <p> Country: {props.country} </p>
+    </div>
   )
 }
 
